@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/xieyuandong/Workspace/cpp/Baidu-Research-Allreduce/main.cpp
+mpi.h
+/Users/xieyuandong/Workspace/cpp/Baidu-Research-Allreduce/mpi.h
+cstdlib
+-
+iostream
+-
+
+/Users/xieyuandong/opt/openmpi/openmpi-4.0.0/include/mpi.h
+stddef.h
+-
+mpi_portable_platform.h
+/Users/xieyuandong/opt/openmpi/openmpi-4.0.0/include/mpi_portable_platform.h
+openmpi/ompi/mpi/cxx/mpicxx.h
+/Users/xieyuandong/opt/openmpi/openmpi-4.0.0/include/openmpi/ompi/mpi/cxx/mpicxx.h
+
+/Users/xieyuandong/opt/openmpi/openmpi-4.0.0/include/mpi_portable_platform.h
+omp.h
+/Users/xieyuandong/opt/openmpi/openmpi-4.0.0/include/omp.h
+omp.h
+/Users/xieyuandong/opt/openmpi/openmpi-4.0.0/include/omp.h
+
